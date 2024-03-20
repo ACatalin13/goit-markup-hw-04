@@ -1,0 +1,55 @@
+@import url("./styles.css");
+
+.filter-list {
+  display: flex;
+  justify-content: center;
+  gap: 2.5em;
+}
+
+.filter-list-button {
+  color: var(--iris);
+  background-color: var(--cloud);
+  border: 1px solid var(--cornflower);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 1.5em;
+  letter-spacing: 0.04em;
+  padding: 12px 24px;
+}
+
+.filter-list-button:hover {
+  cursor: pointer;
+  background-color: var(--ocean);
+  color: var(--white);
+}
+
+.row-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-card {
+  background-color: var(--white);
+  border: 1px solid var(--cornflower);
+}
+
+.project-card-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card-info h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.project-card-info p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
