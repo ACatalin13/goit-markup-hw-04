@@ -141,7 +141,8 @@ a {
 }
 
 .section-one {
-  background: var(--navy-blue);
+  background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/people-office.png);
   height: 600px;
   display: flex;
   justify-content: center;
@@ -265,7 +266,6 @@ a {
   background: var(--white);
   display: flex;
   flex-direction: column;
-  gap: 32px;
 }
 
 .card-content {
@@ -311,4 +311,127 @@ a {
   line-height: 1.5em;
   letter-spacing: 0.02em;
   color: var(--cloud);
+}
+
+.social-icons-list {
+  display: flex;
+  gap: 24px;
+  margin-top: 8px;
+  justify-content: center;
+}
+
+.social-icons-list .social-icon svg {
+  width: 16px;
+  height: 16px;
+}
+
+.social-icons-list .social-icon {
+  width: 40px;
+  height: 40px;
+  background-color: var(--cloud);
+  fill: var(--light-slate);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons-list .social-icon:hover,
+.social-icons-list .social-icon:active {
+  width: 40px;
+  height: 40px;
+  background-color: var(--iris);
+  fill: var(--cloud);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-one-svg-container {
+  display: flex;
+  justify-content: center;
+  background-color: var(--cloud);
+  padding: 24px;
+  border-radius: 4px;
+}
+
+.section-one-svg-container svg {
+  width: 64px;
+  height: 64px;
+}
+
+.section-four {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-four h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+.customers-list {
+  display: flex;
+  gap: 24px;
+  fill: var(--light-slate);
+}
+
+.customers-list .client-icon-container {
+  width: 168px;
+  height: 88px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--light-slate);
+  border-radius: 4px;
+}
+
+.customers-list .client-icon-container:hover,
+.customers-list .client-icon-container:active {
+  border: 1px solid var(--ocean);
+}
+
+.customers-list .client-icon-container svg {
+  width: 104px;
+  height: 56px;
+}
+
+.customers-list .client-icon-container svg:hover,
+.customers-list .client-icon-container svg:active {
+  fill: var(--ocean);
+}
+
+.footer-social-icons-list p {
+  color: red;
+}
+.footer-social-icons-list {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+.footer-social-icons-list .social-icon svg {
+  width: 24px;
+  height: 24px;
+}
+.footer-social-icons-list .social-icon {
+  width: 40px;
+  height: 40px;
+  background-color: var(--iris);
+  fill: var(--cloud);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-social-icons-list .social-icon:hover,
+.footer-social-icons-list .social-icon:active {
+  background-color: var(--green);
 }
