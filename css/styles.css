@@ -268,6 +268,15 @@ a {
   flex-direction: column;
 }
 
+.card-content p,
+h3 {
+  margin: 0;
+}
+
+.cards-list .card img {
+  margin-bottom: 32px;
+}
+
 .card-content {
   display: flex;
   flex-direction: column;
