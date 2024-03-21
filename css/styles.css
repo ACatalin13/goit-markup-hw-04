@@ -283,6 +283,10 @@ a {
   padding: 100px 0;
 }
 
+.footer-section .container {
+  display: flex;
+}
+
 .footer-section-style {
   display: flex;
   flex-direction: column;
@@ -408,8 +412,21 @@ a {
   fill: var(--ocean);
 }
 
-.footer-social-icons-list p {
-  color: red;
+.social-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 208px;
+  margin-left: 120px;
+}
+
+.social-container p {
+  color: var(--white);
+  font-family: var(--font-family);
+  font-size: 1em;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  margin: 0;
 }
 .footer-social-icons-list {
   display: flex;
